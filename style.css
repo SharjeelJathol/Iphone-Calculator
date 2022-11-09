@@ -1,5 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+}
+
+@media(width>=769px){
+    table{
+        border: 1vh solid black;
+    }
+
+    td{
+        border: 1vh solid black;
+    }
+
+    .single-col{
+        width: 10vh;
+        height: 10vh;
+        text-align: center;
+        border-radius: 50%;
+    }
+    
+    .double-col{
+        width: 20vh;
+        height: 10vh;
+        border-radius: 10vh;
+        text-indent: 4vh;
+    }
+    
+    .quadruple-col{
+        width: 40vh;
+        height: 10vh;
+    }
+
+    .operations{
+        color: white;
+        background-color: rgb(255, 187, 0);
+        font-size: 100%;
+    }
+    
+    .digit{
+        color: white;
+        background-color: rgb(73, 73, 73);
+        font-size: 100%;
+    }
+    
+    .reset{
+        color: black;
+        background-color: rgb(158, 158, 158);
+        font-size: 100%;
+    }
+    
+    .text-area{
+        color: white;
+        background-color: black;
+        font-size: 2rem;
+        padding-right: 4vh;
+        text-align: right;
+    }
 }
