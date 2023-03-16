@@ -22,6 +22,7 @@ table{
 @media(width>=769px){
     table{
         border: 1vh solid black;
+        /* min-width: 769px; */
     }
 
     td{
